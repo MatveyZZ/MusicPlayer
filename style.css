@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body {
+body{
     background-color: #ddd;
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -10,64 +10,64 @@ body {
     height: 100vh;
 }
 
-.container {
+.container{
     position: relative;
     padding: 10px;
 }
 
-.container .song-info {
+.container .song-info{
     background-color: #000;
     margin: 0 15px;
     padding: 15px 15px 5px 150px;
     border-radius: 15px 15px 0 0;
 }
 
-.container .song-info .song-name {
+.container .song-info .song-name{
     color: #b9b9b9;
     font-size: 14px;
     margin: 3px 0 20px;
 }
 
-.container .song-info .artist-name {
+.container .song-info .artist-name{
     color: #fff;
     font-weight: bold;
     font-size: 18px;
 }
 
-.container .song-info .progress-bar {
+.container .song-info .progress-bar{
     background-color: #505050;
     border-radius: 20px;
     cursor: pointer;
 }
 
-.container .song-info .progress-bar .fill-bar {
+.container .song-info .progress-bar .fill-bar{
     width: 0;
     height: 6px;
     border-radius: 20px;
     background: #1db954;
 }
 
-.container .song-info .time {
+.container .song-info .time{
     font-size: 15px;
     color: #b9b9b9;
     margin: 10px 0;
 }
 
-.container .disk {
+.container .disk{
     max-width: 120px;
 }
 
-.container .disk .active {
+.container .disk .active{
     animation: rotate 3s linear 0s infinite forwards;
 }
 
-.container .disk .cover {
+.container .disk .cover{
     width: 145px;
     height: 145px;
     position: absolute;
     top: 10px;
     left: 10px;
-    background: url("assets/Pasha.jpg");
+    background: url("assets/1.jpg");
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
@@ -77,7 +77,7 @@ body {
     transition: all 0.2s ease-in-out;
 }
 
-.continer .disk .circle {
+.container .disk .circle{
     position: absolute;
     width: 30px;
     height: 30px;
@@ -88,7 +88,7 @@ body {
     border-radius: 50%;
 }
 
-.container .controls {
+.container .controls{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,16 +101,16 @@ body {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 
-.container .controls #play {
+.container .controls #play{
     background-color: #1db954;
     color: #fff;
-    padding: 15px 15px 14px 17px;
+    padding: 15px 17px 14px 18px;
     font-size: 28px;
     border-radius: 50%;
     transition: all 0.3s ease;
 }
 
-.container .controls #play:hover {
+.container .controls #play:hover{
     background: #189945;
 }
 
@@ -122,7 +122,7 @@ body {
     transition: all 0.3s ease;
 }
 
-.container .controls i:hover {
+.container .controls i:hover{
     color: #fff;
 }
 
